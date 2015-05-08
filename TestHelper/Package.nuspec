@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>TestHelper</id>
+        <version>0.0.1</version>
+        <authors>Kelly Selden</authors>
+        <projectUrl>https://github.com/kellyselden/TestHelper</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Test helpers</description>
+        <tags>MSTest</tags>
+        <dependencies>
+            <dependency id="DeepEqual" version="1.4.0.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\TestHelper.dll" target="lib\TestHelper.dll" />
+    </files>
+</package>
