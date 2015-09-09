@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>TestHelper</id>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
         <authors>Kelly Selden</authors>
         <projectUrl>https://github.com/kellyselden/TestHelper</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Test helpers</description>
-        <tags>MSTest</tags>
+        <tags>MSTest DeepEqual</tags>
         <dependencies>
             <dependency id="DeepEqual" version="1.4.0.0" />
         </dependencies>
